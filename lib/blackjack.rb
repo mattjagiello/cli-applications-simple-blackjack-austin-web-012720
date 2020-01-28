@@ -8,8 +8,13 @@ def deal_card
   rand(1...11)
 end
 
+<<<<<<< HEAD
 def display_card_total(card_total)
   puts "Your cards add up to #{card_total}"
+=======
+def display_card_total(cards)
+  puts "Your cards add up to #{cards}"
+>>>>>>> a9fd413c4bda072d16d8263528299f1fd3dbc187
 end
 
 def prompt_user
